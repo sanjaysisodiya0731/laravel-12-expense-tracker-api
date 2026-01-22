@@ -75,21 +75,14 @@ http://localhost/project/expense-tracker-api/public/api
 
 ### 📬 API Endpoints
 🔐 Authentication APIs
-    Method	Endpoint	Description
-    POST	/auth/register	Register user
-    POST	/auth/login	Login user
-    POST	/auth/forgot-password	Forgot password
-    POST	/auth/reset-password	Reset password
-    GET	/auth/me	Get logged-in user
-    PUT	/auth/update-profile	Update profile
-    POST	/auth/logout	Logout user
-    💸 Expense APIs (Auth Required)
-    Method	Endpoint	Description
-    GET	/expenses	List expenses (pagination)
-    GET	/expenses?month=2025-08&per_page=1	Filter by month
-    POST	/expenses	Create expense
-    PUT	/expenses/{id}	Update expense
-    DELETE	/expenses/{id}	Delete expense
+Method	Endpoint	Description
+POST	/auth/register	Register user
+POST	/auth/login	Login user
+POST	/auth/forgot-password	Forgot password
+POST	/auth/reset-password	Reset password
+GET	/auth/me	Get logged-in user
+PUT	/auth/update-profile	Update profile
+POST	/auth/logout	Logout user
 
 🧪 Sample API Response (Expenses)
 {
@@ -107,6 +100,7 @@ http://localhost/project/expense-tracker-api/public/api
     }
   ]
 }
+
 
 🔐 Authentication Note
 
